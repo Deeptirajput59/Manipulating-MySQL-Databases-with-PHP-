@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Airlines</title>
+<!--Name: Deepti Rajput
+   UIN: 660136229
+   Chapter 9 Assignment -->
+<meta http-equiv="content-type"content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+  <h2>airline Survey</h2> 
+  <form method="POST" action="View.php"> 
+  <p>Flight Date: <input type="text" name="Flight_Date" /></p> 
+  <p>Flight Time: <input type="text" name="Flight_Time" /></p> 
+  <p>Flight Number: <input type="text" name="Flight_Number" /></p> 
+  <p>Airline: <input type="text" name="Airline" /></p> 
+  <p>Starting City: <input type="text" name="Starting_City" /></p> 
+  <p>Ending City: <input type="text" name="Ending_City" /></p> 
+ 
+<h2> Please give the Ratings</h2>
+  
+  <table>
+
+
+  <tr>
+    <td>Friendliness of customer staff:</td>
+    <td><label for="q1-n"><input type="radio" name="n" value="No Opinion" />No Opinion</label></td>
+    <td><label for="q1-p"><input type="radio" name="n" value="Poor" />Poor</label></td>	
+	<td><label for="q1-f"><input type="radio" name="n" value="Fair" />Fair</label></td>
+    <td><label for="q1-g"><input type="radio" name="n" value="Good" />Good</label></td>	
+	<td><label for="q1-e"><input type="radio" name="n" value="Excellent" />Excellent</label></td>	
+  </tr>
+  
+   <tr>
+    <td>Space for luggage storage:</td>
+   <td><label for="q2-n"><input type="radio" name="p" value="No Opinion" />No Opinion</label></td>
+    <td><label for="q2-p"><input type="radio" name="p" value="Poor" />Poor</label></td>	
+	<td><label for="q2-f"><input type="radio" name="p" value="Fair" />Fair</label></td>
+    <td><label for="q2-g"><input type="radio" name="p" value="Good" />Good</label></td>	
+	<td><label for="q2-e"><input type="radio" name="p" value="Excellent" />Excellent</label></td>	
+  </tr>
+  
+  <tr>
+    <td>Comfort of seating:</td>
+    <td><label for="q1-n"><input type="radio" name="f" value="No Opinion" />No Opinion</label></td>
+    <td><label for="q1-p"><input type="radio" name="f" value="Poor" />Poor</label></td>	
+	<td><label for="q1-f"><input type="radio" name="f" value="Fair" />Fair</label></td>
+    <td><label for="q1-g"><input type="radio" name="f" value="Good" />Good</label></td>	
+	<td><label for="q1-e"><input type="radio" name="f" value="Excellent" />Excellent</label></td>		
+  </tr>
+  
+  <tr>
+    <td>Cleanliness of aircraft:</td>
+    <td><label for="q1-n"><input type="radio" name="g" value="No Opinion" />No Opinion</label></td>
+    <td><label for="q1-p"><input type="radio" name="g" value="Poor" />Poor</label></td>	
+	<td><label for="q1-f"><input type="radio" name="g" value="Fair" />Fair</label></td>
+    <td><label for="q1-g"><input type="radio" name="g" value="Good" />Good</label></td>	
+	<td><label for="q1-e"><input type="radio" name="g" value="Excellent" />Excellent</label></td>	
+  </tr>
+  
+  <tr>
+    <td>Noise level of aircraft:</td>
+    <td><label for="q1-n"><input type="radio" name="e" value="No Opinion" />No Opinion</label></td>
+    <td><label for="q1-p"><input type="radio" name="e" value="Poor" />Poor</label></td>	
+	<td><label for="q1-f"><input type="radio" name="e" value="Fair" />Fair</label></td>
+    <td><label for="q1-g"><input type="radio" name="e" value="Good" />Good</label></td>	
+	<td><label for="q1-e"><input type="radio" name="e" value="Excellent" />Excellent</label></td>	
+  </tr>
+
+</table>
+<p> <input type="reset" value="Clear" name="submit" value="Send" />&nbsp;
+&nbsp;<input type="submit" name="Submit" value="Submit"</p>
+</form> 
+  <p><a href="show.php">show table </a></p> 
+</body>
+</html>

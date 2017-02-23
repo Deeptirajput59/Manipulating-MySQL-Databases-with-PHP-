@@ -1,0 +1,2 @@
+# Manipulating-MySQL-Databases-with-PHP-
+One of PHP’s greatest strengths is its ability to access and manipulate databases. With its strong support for Open Database Connectivity (ODBC), we can use PHP to gain direct access to any database that is ODBC compliant, including Oracle, Informix, PostgreSQL, and MySQL. PHP also allows us to work directly with different types of databases without going through ODBC.
